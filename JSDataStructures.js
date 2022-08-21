@@ -1,3 +1,27 @@
+// SCOTT'S DATA AND ALGO COURSE (VISUAL)
+
+// JAVASCRIPT CLASS CONSTRUCTOR
+class Cookie {
+	constructor(color) {
+			this.color = color
+	}
+	getColor() {
+			return this.color
+	}
+	setColor(color) {
+			this.color = color
+	}
+}
+
+let cookieOne = new Cookie('green')
+let cookieTwo = new Cookie('blue')
+
+
+
+
+
+
+
 // Hash Mapping ???
 // Does array1 contain the same item as array2?
 
