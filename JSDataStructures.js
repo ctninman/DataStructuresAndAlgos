@@ -1,4 +1,5 @@
 // Hash Mapping ???
+// Does array1 contain the same item as array2?
 
 array1 = ['a', 'b', 'c', 'x']
 array2 = ['r', 't', 'x']
@@ -20,5 +21,9 @@ function containsCommonItem (arr1, arr2) {
 }
 
 function containsCommonItem2 (arr1, arr2) {
-	return arr1.some(item => arr2.include(item))
+	return arr1.some(item => arr2.includes(item))
 }
+
+// LINKED LIST
+
+//ll
